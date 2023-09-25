@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+/*  your css code here. If applicable */
+body{
+	min-height:100vh;
+}
+#line{
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:200px;
+	height:2px;
+	background-color:black;
+/* 	transition:s; */
+	animation:rotate 3s linear infinite;
+	transform-origin:center;
+	
+}
+@keyframes rotate{
+	100%{
+		 transform:rotatez(360deg)
+	}
+}
